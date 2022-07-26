@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  text-decoration: none;
+}
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("../font/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("../font/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../font/Montserrat-Regular.ttf");
+}
+.header {
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1em 0.5em 4em;
+}
+.icons {
+  display: flex;
+}
+.icon {
+  margin-right: 2em;
+}
+.para-head {
+  color: #000;
+  font-size: 12px;
+  font-family: Montserrat-Light;
+}
+.menu-search {
+  display: flex;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+.div-menu {
+  padding-right: 1em;
+}
+input.input {
+  padding: 0.7em 2em;
+  background-color: #f9f8f8;
+  border: #edebeb solid;
+  color: #000000;
+  font-size: 14px;
+  font-family: Montserrat-Medium;
+}
+input.input:focus {
+  background-color: #fff;
+  color: #2196f3;
+}
+i.fas.fa-bars {
+  padding-top: 0.3em;
+  color: #edebeb;
+  font-size: 1.7em;
+}
+i.fas.fa-bars:hover {
+  color: #2196f3;
+}
+.left-said {
+  background-color: #99959510;
+}
+.masseg-telgram {
+  padding: 3em 2em 2.1em 1em;
+}
+.img-massg {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+.img-massg:hover {
+  background-color: #e3e1e552;
+  padding: 0.5em;
+  border-radius: 7px;
+}
+.massg-Name {
+  margin-right: 4em;
+}
+.div-img {
+  margin-right: 2em;
+}
+.Name {
+  color: #333333;
+  font-size: 16px;
+  font-family: Montserrat-Medium;
+}
+.para-massg {
+  color: #666666;
+  font-size: 11px;
+  font-family: Montserrat-Light;
+}
+.time {
+  color: #000;
+  font-size: 12px;
+  font-family: Montserrat-Light;
+}
+.left-rigth {
+  display: flex;
+}
+.massg-parson {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #c5bdbd73;
+  padding-bottom: 1em;
+}
+.div-back {
+  padding-right: 25em;
+  padding-left: 1em;
+}
+.name-parson {
+  padding-right: 25em;
+}
+img.elipse {
+  transform: translate(-23px, 21px);
+}
+h2.name-head {
+  color: #333333;
+  font-size: 20px;
+  font-family: Montserrat-Regular;
+}
+p.para-name {
+  color: #333333;
+  font-size: 14px;
+  font-family: Montserrat-Light;
+  padding-left: 3em;
+  padding-top: 0.5em;
+}
+p.para-date {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.3em;
+  background-color: #b8b6b62e;
+  border-radius: 15px;
+  margin-left: 38em;
+  margin-right: 37em;
+  margin-top: 1em;
+  color: #000;
+  font-size: 12px;
+  font-family: Montserrat-Light;
+}
+.time-masseg {
+  padding-left: 54em;
+  padding-top: 8em;
+  padding-right: 1em;
+}
+h3.contant-massg {
+  background-color: #8ddf84;
+  padding: 1em;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  font-size: 16px;
+  color: #fff;
+  font-family: Montserrat-Light;
+}
+p.para-time-massg {
+  margin-left: 0.3em;
+  font-size: 12px;
+  color: #000;
+  font-family: Montserrat-Light;
+}
+.time-masseg2 {
+  margin-left: 3em;
+  margin-right: 52em;
+  background-color: #49a1ef;
+  padding: 1em;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+input.input-voise {
+  margin-top: 8.9em;
+  margin-left: 1em;
+  margin-right: -2em;
+  width: 95%;
+  padding: 3em 0em 2em 0em;
+}
+input.input-voise:focus {
+  color: #44add6;
+}
+.microphon {
+  transform: translate(-58em, 3px);
+}
+img.img-emoje {
+  transform: translate(-57em, 1px);
+}
+.img-sent {
+  transform: translate(58em, -58px);
+}
+.rigth-said {
+  display: none;
+}
+i.fab.fa-telegram {
+  font-size: 13em;
+  color: #2196f3;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+p.para-time-massg2 {
+  margin-left: 12em;
+  font-size: 12px;
+  color: #000;
+  font-family: Montserrat-Light;
+}
+h3.contant-massg2 {
+  font-size: 16px;
+  color: #fff;
+  font-family: Montserrat-Light;
+}
+.circle {
+  transform: translate(-13.6em, 0.1em);
+  color: #8ddf84;
+}
